@@ -164,6 +164,7 @@
     <Content Include="css\fonts\franchise-bold-webfont.ttf" />
     <Content Include="css\fonts\franchise-bold-webfont.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="images\front-logo.png" />
     <Content Include="Profile.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />

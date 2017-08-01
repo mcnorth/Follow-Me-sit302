@@ -6,7 +6,9 @@
 <head runat="server">
     
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="styles/JavaScript.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
     <title>FollowMe</title>
 </head>
 <body>
@@ -17,7 +19,7 @@
         <div class="login-page">
             <div class="form">
 
-                
+                <img src="images/front-logo.png" class="img-responsive center" id="front-logo" />
     
                 <asp:TextBox ID="txtlogusername" runat="server" placeholder="username"></asp:TextBox>                  
                 <asp:TextBox ID="txtlogpassword" runat="server" placeholder="password"></asp:TextBox>
