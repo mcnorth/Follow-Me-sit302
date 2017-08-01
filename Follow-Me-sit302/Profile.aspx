@@ -31,8 +31,8 @@
 
             <!-----------------------Side nav bar begin-------------------------------------->
 			<div class="logo">
-				
-                <asp:Label ID="lblSession" runat="server" Text=""></asp:Label>
+				<img src="images/front-logo.png" class="img-responsive center" id="front-logo" />
+                
 				
 			</div>
 
@@ -75,7 +75,7 @@
 				<div class="container-fluid">
 					<div class="navbar-header">
 						
-                        Follow Me Application
+                        <asp:Label ID="lblSession" runat="server" Text=""></asp:Label>
 						<%--<a class="navbar-brand" href="#">Material Dashboard</a>--%>
 					</div>
 					
