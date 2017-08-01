@@ -15,6 +15,8 @@
         <div class="login-page">
             <div class="form">
                 
+                <img src="images/front-logo.png" class="img-responsive center" id="front-logo" />
+
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtregname" Display="Dynamic" ErrorMessage="Name is required" Font-Size="Small" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                 
                 <asp:TextBox ID="txtregname" runat="server" placeholder="username"></asp:TextBox>                  
