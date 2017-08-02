@@ -24,7 +24,12 @@
                 <asp:TextBox ID="txtlogusername" runat="server" placeholder="username"></asp:TextBox>                  
                 <asp:TextBox ID="txtlogpassword" runat="server" placeholder="password"></asp:TextBox>
                 <asp:Button ID="btnlogin" runat="server" Text="login" OnClick="btnlogin_Click"></asp:Button>
+                <asp:Button ID="btnTemp" runat="server" Text="temp" OnClick="btnTemp_Click" />
                 <asp:Label ID="lbllogStatus" runat="server"></asp:Label>
+
+                <!----------------------------------checkboxes here------------------------------------->
+                <asp:CheckBox ID="cbPersonal" runat="server" /> 
+
                 <p class="message">Not registered? <a href="Register.aspx">Create an account</a></p>
      
             </div>

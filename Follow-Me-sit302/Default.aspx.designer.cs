@@ -49,6 +49,15 @@ namespace Follow_Me_sit302 {
         protected global::System.Web.UI.WebControls.Button btnlogin;
         
         /// <summary>
+        /// btnTemp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnTemp;
+        
+        /// <summary>
         /// lbllogStatus control.
         /// </summary>
         /// <remarks>
@@ -56,5 +65,14 @@ namespace Follow_Me_sit302 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbllogStatus;
+        
+        /// <summary>
+        /// cbPersonal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbPersonal;
     }
 }
