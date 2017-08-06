@@ -49,7 +49,7 @@
 	                    </a>
 	                </li>
 	                <li>
-	                    <a href="ViewProfile.aspx">	                        
+	                    <a href="notification.aspx">	                        
 	                        <p>Send Notification</p>
 	                    </a>
 	                </li>

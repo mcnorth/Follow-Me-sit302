@@ -38,7 +38,7 @@
 	    	<div class="sidebar-wrapper">
 	            <ul class="nav">
 	                <li class="active">
-	                    <a href="Business.aspx">	                        
+	                    <a href="business.aspx">	                        
 	                        <p>Dashboard</p>
 	                    </a>
 	                </li>

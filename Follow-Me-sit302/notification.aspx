@@ -43,12 +43,12 @@
 	                        <p>Dashboard</p>
 	                    </a>
 	                </li>
-	                <li class="active">
+	                <li>
 	                    <a href="client.aspx">	                        
 	                        <p>Get Client Details</p>
 	                    </a>
 	                </li>
-	                <li>
+	                <li class="active">
 	                    <a href="notification.aspx">	                        
 	                        <p>Send Notification</p>
 	                    </a>
