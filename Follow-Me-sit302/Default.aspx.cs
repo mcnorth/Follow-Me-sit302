@@ -22,7 +22,7 @@ namespace Follow_Me_sit302
         //button for business page
         protected void btnTemp_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Business.aspx");
+            Response.Redirect("~/business.aspx");
         }
        
 
