@@ -22,8 +22,9 @@ namespace Follow_Me_sit302
         //button for business page
         protected void btnTemp_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/BusinessPage.aspx");
+            Response.Redirect("~/Business.aspx");
         }
+       
 
         //button click from login
         //adds the data from the txt boxes to an object of MemberEntity class

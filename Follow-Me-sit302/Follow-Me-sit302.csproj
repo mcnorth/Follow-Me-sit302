@@ -132,7 +132,9 @@
     <Content Include="App_Data\FollowMeDatabase_log.ldf">
       <DependentUpon>FollowMeDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="business.aspx" />
     <Content Include="BusinessPage.aspx" />
+    <Content Include="client.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -166,6 +168,7 @@
     <Content Include="css\fonts\franchise-bold-webfont.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\front-logo.png" />
+    <Content Include="notification.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -221,12 +224,26 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="business.aspx.cs">
+      <DependentUpon>business.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="business.aspx.designer.cs">
+      <DependentUpon>business.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BusinessPage.aspx.cs">
       <DependentUpon>BusinessPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="BusinessPage.aspx.designer.cs">
       <DependentUpon>BusinessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="client.aspx.cs">
+      <DependentUpon>client.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="client.aspx.designer.cs">
+      <DependentUpon>client.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -247,6 +264,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Model\MemberEntity.cs" />
+    <Compile Include="notification.aspx.cs">
+      <DependentUpon>notification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notification.aspx.designer.cs">
+      <DependentUpon>notification.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

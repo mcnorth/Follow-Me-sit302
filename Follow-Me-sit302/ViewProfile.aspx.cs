@@ -16,7 +16,7 @@ namespace Follow_Me_sit302
         protected void Page_Load(object sender, EventArgs e)
         {
             //session variable
-            lblSession.Text = "Hello " + Session["name"].ToString();
+            /*lblSession.Text = "Hello " + Session["name"].ToString();*/
 
             //sql connections and query
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFilename='|DataDirectory|FollowMeDatabase.mdf'; Integrated Security=True");

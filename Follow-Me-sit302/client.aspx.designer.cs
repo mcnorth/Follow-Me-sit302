@@ -10,7 +10,7 @@
 namespace Follow_Me_sit302 {
     
     
-    public partial class Default {
+    public partial class client {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,13 @@ namespace Follow_Me_sit302 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtlogusername control.
+        /// lblSession control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtlogusername;
-        
-        /// <summary>
-        /// txtlogpassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtlogpassword;
+        protected global::System.Web.UI.WebControls.Label lblSession;
         
         /// <summary>
         /// btnlogin control.
@@ -49,39 +40,84 @@ namespace Follow_Me_sit302 {
         protected global::System.Web.UI.WebControls.Button btnlogin;
         
         /// <summary>
-        /// btnbusiness control.
+        /// btnfind control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnbusiness;
+        protected global::System.Web.UI.WebControls.Button btnfind;
         
         /// <summary>
-        /// lbllogStatus control.
+        /// txtProFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbllogStatus;
+        protected global::System.Web.UI.WebControls.TextBox txtProFirstName;
         
         /// <summary>
-        /// cbPersonal control.
+        /// txtProLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbPersonal;
+        protected global::System.Web.UI.WebControls.TextBox txtProLastName;
         
         /// <summary>
-        /// cbbusiness control.
+        /// txtProHouseNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbbusiness;
+        protected global::System.Web.UI.WebControls.TextBox txtProHouseNo;
+        
+        /// <summary>
+        /// txtProStreetName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProStreetName;
+        
+        /// <summary>
+        /// txtProSuburb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProSuburb;
+        
+        /// <summary>
+        /// txtProState control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProState;
+        
+        /// <summary>
+        /// txtProCountry control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProCountry;
+        
+        /// <summary>
+        /// txtProPostcode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProPostcode;
     }
 }

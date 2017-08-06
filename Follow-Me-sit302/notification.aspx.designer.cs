@@ -10,7 +10,7 @@
 namespace Follow_Me_sit302 {
     
     
-    public partial class Default {
+    public partial class notification {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,13 @@ namespace Follow_Me_sit302 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtlogusername control.
+        /// lblSession control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtlogusername;
-        
-        /// <summary>
-        /// txtlogpassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtlogpassword;
+        protected global::System.Web.UI.WebControls.Label lblSession;
         
         /// <summary>
         /// btnlogin control.
@@ -49,39 +40,39 @@ namespace Follow_Me_sit302 {
         protected global::System.Web.UI.WebControls.Button btnlogin;
         
         /// <summary>
-        /// btnbusiness control.
+        /// btnfind control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnbusiness;
+        protected global::System.Web.UI.WebControls.Button btnfind;
         
         /// <summary>
-        /// lbllogStatus control.
+        /// txtProComment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbllogStatus;
+        protected global::System.Web.UI.WebControls.TextBox txtProComment;
         
         /// <summary>
-        /// cbPersonal control.
+        /// btnSend control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbPersonal;
+        protected global::System.Web.UI.WebControls.Button btnSend;
         
         /// <summary>
-        /// cbbusiness control.
+        /// lblProStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbbusiness;
+        protected global::System.Web.UI.WebControls.Label lblProStatus;
     }
 }

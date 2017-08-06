@@ -10,7 +10,7 @@
 namespace Follow_Me_sit302 {
     
     
-    public partial class BusinessPage {
+    public partial class business {
         
         /// <summary>
         /// form1 control.
