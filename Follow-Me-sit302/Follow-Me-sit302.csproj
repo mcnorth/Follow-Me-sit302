@@ -127,15 +127,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="App_Data\FollowMeDatabase.mdf" />
     <Content Include="App_Data\FollowMeDatabase_log.ldf">
       <DependentUpon>FollowMeDatabase.mdf</DependentUpon>
     </Content>
     <Content Include="business.aspx" />
-    <Content Include="BusinessPage.aspx" />
     <Content Include="client.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -216,13 +213,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="business.aspx.cs">
       <DependentUpon>business.aspx</DependentUpon>
@@ -231,26 +221,12 @@
     <Compile Include="business.aspx.designer.cs">
       <DependentUpon>business.aspx</DependentUpon>
     </Compile>
-    <Compile Include="BusinessPage.aspx.cs">
-      <DependentUpon>BusinessPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="BusinessPage.aspx.designer.cs">
-      <DependentUpon>BusinessPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="client.aspx.cs">
       <DependentUpon>client.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="client.aspx.designer.cs">
       <DependentUpon>client.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\DatabaseController.cs" />
     <Compile Include="Default.aspx.cs">
