@@ -1,4 +1,4 @@
-﻿<%--<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Follow_Me_sit302.Default" %>--%>
+﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Follow_Me_sit302.Default" %>
 
 <!DOCTYPE html>
 
